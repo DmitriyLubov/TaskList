@@ -56,15 +56,39 @@
 		A83A1D5129D9ECCA000B0D27 /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
-				A83A1D5229D9ECCA000B0D27 /* AppDelegate.swift */,
-				A83A1D5429D9ECCA000B0D27 /* SceneDelegate.swift */,
-				A83A1D5629D9ECCA000B0D27 /* TaskListViewController.swift */,
+				B6140E7E29DABCE600E1FF1A /* ViewControllers */,
+				B6140E7F29DABCFF00E1FF1A /* Storyboards */,
+				B6140E7D29DABCC100E1FF1A /* App */,
 				A83A1D5E29D9ECCB000B0D27 /* Assets.xcassets */,
-				A83A1D6029D9ECCB000B0D27 /* LaunchScreen.storyboard */,
-				A83A1D6329D9ECCB000B0D27 /* Info.plist */,
 				A83A1D5B29D9ECCA000B0D27 /* TaskList.xcdatamodeld */,
 			);
 			path = TaskList;
+			sourceTree = "<group>";
+		};
+		B6140E7D29DABCC100E1FF1A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A83A1D5229D9ECCA000B0D27 /* AppDelegate.swift */,
+				A83A1D5429D9ECCA000B0D27 /* SceneDelegate.swift */,
+				A83A1D6329D9ECCB000B0D27 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B6140E7E29DABCE600E1FF1A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A83A1D5629D9ECCA000B0D27 /* TaskListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6140E7F29DABCFF00E1FF1A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A83A1D6029D9ECCB000B0D27 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GBTTU32HS2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -312,7 +336,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GBTTU32HS2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
