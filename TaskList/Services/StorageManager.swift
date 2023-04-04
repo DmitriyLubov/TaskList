@@ -25,7 +25,6 @@ class StorageManager {
     private init() {}
 
     func saveContext() {
-//        let context = persistentContainer.viewContext
         if context.hasChanges {
             do {
                 try context.save()
@@ -38,7 +37,6 @@ class StorageManager {
     
     func fetchContext(completion: @escaping(Result<[Task], Error>) -> Void) {
         let fetchRequest = Task.fetchRequest()
-//        let context = persistentContainer.viewContext
         
         do {
             let taskData = try context.fetch(fetchRequest)
@@ -49,7 +47,6 @@ class StorageManager {
     }
     
     func addTask(withTitle title: String) -> Task {
-//        let context = persistentContainer.viewContext
         let task = Task(context: context)
         
         task.title = title
@@ -59,7 +56,6 @@ class StorageManager {
     }
     
     func delete(task: Task) {
-//        let context = persistentContainer.viewContext
         context.delete(task)
         saveContext()
     }
