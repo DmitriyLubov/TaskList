@@ -13,6 +13,7 @@
 		A83A1D5D29D9ECCA000B0D27 /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A83A1D5B29D9ECCA000B0D27 /* TaskList.xcdatamodeld */; };
 		A83A1D5F29D9ECCB000B0D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83A1D5E29D9ECCB000B0D27 /* Assets.xcassets */; };
 		A83A1D6229D9ECCB000B0D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83A1D6029D9ECCB000B0D27 /* LaunchScreen.storyboard */; };
+		B6140E8229DACF7000E1FF1A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6140E8129DACF7000E1FF1A /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A83A1D5E29D9ECCB000B0D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83A1D6129D9ECCB000B0D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83A1D6329D9ECCB000B0D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6140E8129DACF7000E1FF1A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B6140E7E29DABCE600E1FF1A /* ViewControllers */,
+				B6140E8029DACECA00E1FF1A /* Services */,
 				B6140E7F29DABCFF00E1FF1A /* Storyboards */,
 				B6140E7D29DABCC100E1FF1A /* App */,
 				A83A1D5E29D9ECCB000B0D27 /* Assets.xcassets */,
@@ -89,6 +92,14 @@
 				A83A1D6029D9ECCB000B0D27 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6140E8029DACECA00E1FF1A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6140E8129DACF7000E1FF1A /* StorageManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			files = (
 				A83A1D5D29D9ECCA000B0D27 /* TaskList.xcdatamodeld in Sources */,
 				A83A1D5729D9ECCA000B0D27 /* TaskListViewController.swift in Sources */,
+				B6140E8229DACF7000E1FF1A /* StorageManager.swift in Sources */,
 				A83A1D5329D9ECCA000B0D27 /* AppDelegate.swift in Sources */,
 				A83A1D5529D9ECCA000B0D27 /* SceneDelegate.swift in Sources */,
 			);
