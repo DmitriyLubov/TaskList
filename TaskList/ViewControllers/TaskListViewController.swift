@@ -140,5 +140,6 @@ private extension TaskListViewController {
     private func editTask(byIndex indexPath: IndexPath,_ title: String) {
         taskList[indexPath.row].title = title
         tableView.reloadRows(at: [indexPath], with: .automatic)
+        storageManager.saveContext()
     }
 }
