@@ -59,11 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				B6140E7E29DABCE600E1FF1A /* ViewControllers */,
+				B6D3DEBF29DFF07000900A49 /* Models */,
 				B6140E8029DACECA00E1FF1A /* Services */,
 				B6140E7F29DABCFF00E1FF1A /* Storyboards */,
 				B6140E7D29DABCC100E1FF1A /* App */,
 				A83A1D5E29D9ECCB000B0D27 /* Assets.xcassets */,
-				A83A1D5B29D9ECCA000B0D27 /* TaskList.xcdatamodeld */,
 			);
 			path = TaskList;
 			sourceTree = "<group>";
@@ -100,6 +100,14 @@
 				B6140E8129DACF7000E1FF1A /* StorageManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B6D3DEBF29DFF07000900A49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A83A1D5B29D9ECCA000B0D27 /* TaskList.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
